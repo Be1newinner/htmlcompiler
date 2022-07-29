@@ -1,0 +1,141 @@
+
+
+ * {
+
+  	margin:0%;
+
+  	padding:0%;
+
+
+
+}
+
+
+
+html, body {	width : 100%;
+
+	height: 100%;
+
+	background-color:grey; 
+
+	margin:0%;
+
+  	padding:0%;
+
+	}
+
+
+
+#html {
+
+	width : 24%;
+
+	height: 80%; 
+
+	float:left;
+
+	margin-bottom:0.8%;
+
+  	padding:0.25%;
+
+	border:none;
+
+	margin-left:0%;
+
+	}
+
+	
+
+#css {
+
+	width : 24%;
+
+	height: 80%;
+
+	float:left;
+
+	margin-bottom:0.8%;
+
+  	padding:0.25%;
+
+	border:none;
+
+    margin-left:0.3%;
+
+	}
+
+	
+
+	#jscript {
+
+	width : 24%;
+
+	height: 80%;
+
+	float:left;
+
+	margin-bottom:0.8%;
+
+  	padding:0.25%;
+
+	border:none;
+
+    margin:0 0.3%;
+
+	}
+
+	
+
+	#live {
+
+	width : 25%;
+
+	height: 80%;
+
+	float:left;
+
+	background-color:white;
+
+	margin-bottom:0.8%;
+
+  	padding:0.25%;
+
+	border:none;
+
+    }
+
+
+
+	
+
+	#control-head{
+
+		margin:5px;
+
+		padding:5px 20px 10px 20px;
+
+		color:white;
+
+		}
+
+	
+
+
+
+	#legend {
+
+		 font-weight:bold;
+
+		}
+
+		
+
+		#iframe {
+
+			width:100%;
+
+			height:100%;
+
+			border:none;
+
+			}

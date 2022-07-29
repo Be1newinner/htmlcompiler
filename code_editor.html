@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+   
+<meta charset="utf-8">
+<title>Untitled Document</title>
+		<link rel="stylesheet" href="jquery/jquery-ui.css">
+        <link rel="stylesheet" href="code_editor/code_editor.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="jquery/jquery-ui.js"></script>
+		<script src="code_editor/code_editor.js"></script>
+
+ <script>
+
+$( function() {
+});
+</script>
+<style>
+
+</style>
+
+</head>
+
+<body>
+<div class="widget">
+  <fieldset id="control-head" class="widget">
+    <legend id="legend">Options  : </legend>
+	    
+        <label for="html-radio">HTML</label>
+    <input type="checkbox" name="html-radio" id="html-radio" >
+ 	   
+       <label for="css-radio">CSS</label>
+    <input type="checkbox" name="css-radio" id="css-radio">
+	    
+        <label for="jscript-radio">Java Script</label>
+    <input type="checkbox" name="jscript-radio" id="jscript-radio" >
+    	
+         <label for="live-radio">Live</label>
+    <input type="checkbox" name="live-radio" id="live-radio">
+       
+         <label for="OnInput-radio">Change On Input</label>
+    <input type="checkbox" name="OnInput-radio" id="OnInput-radio">
+   
+    <button id="submit" style="border-radius:10px; margin:0px 10px"> Submit</button>
+  </fieldset>
+</div>
+
+<textarea id="html" placeholder="Type HTML Content Here (Neither Java Script Nor Css)" ><h3> Hello! User </h3></textarea>
+<textarea id="css" placeholder="Type css Directly here" ></textarea>
+<textarea id="jscript" placeholder="Type Java Script or Jquery Directly here" ></textarea>
+
+
+<div id="live">
+<iframe id="iframe" srcdoc="<p>Hello world!</p>">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+</div>
+
